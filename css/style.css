@@ -1,5 +1,101 @@
+/* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* DEBUG */
+
+.debug{
+    background-color: grey;
+    padding: 1rem;
+    min-height: 80px;
+    
+    
+}
+
+
+/* UTILS */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    padding: 1rem;
+    min-height: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+
+}
+a{
+    text-decoration: none;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.col-30{
+    width: calc(100% / 4 - 10px);
+    border: 1px solid green;
+    float: left;
+    margin: 10px;
+    background-color:black ;
+    color: white;
+    
+
+
+}
+img{
+    float: left;
+    height: 80px;
+    
+}
+   
+
+
+/* header */
+
+h1{
+    color: #e4306f;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom:50px ;
+
+}
+.p-header{
+    text-align: center;
+}
+
+/* COLONNE FLOAT */
+
+h3{
+   text-align: center;
+    
+}
+
+p{
+    text-align:center;
+}
+.email{
+    color:#20acd8 ;
+}
+
+
+
+
